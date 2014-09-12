@@ -2,7 +2,7 @@
 Brittni Carter
 9/11/14
 WPF Section 1
-Industry Expressions
+Industry Expressions - I work as a Social Media Specialist
  */
 
 alert ("let's find out how many new positions need Facebook ads today!");

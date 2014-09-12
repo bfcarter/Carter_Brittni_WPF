@@ -3,9 +3,11 @@
  9/11/2014
  WPF Section 1
  */
-alert("how many students did it take to screw in the lightbulb?");
-//ask how many students are in your class
-var classStudents = prompt ("how many students are in your class?")
-console.log (classStudents)
+ alert ("Hello, let's find out which girl has the most shoes");
 
-//ask 
+//there are four racks of shoes
+var shoeRacks = [200,234,155,333]
+
+var amountOfRacks =prompt ("How many shoe racks are there?")
+console.log (amountOfRacks)
+var prompt= 
