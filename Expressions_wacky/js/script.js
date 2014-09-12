@@ -15,6 +15,7 @@ console.log (Number= amountOfRacks);
 // there are four racks of shoes
 var numRacks = 4;
 console.log(numRacks);
+//the amount of shoes on the shoe racks
 var shoeRacks = [200,234,155,333];
 var total = shoeRacks[0] +shoeRacks[1] +shoeRacks[2] +shoeRacks[3] + yourShoes;
 console.log(total);

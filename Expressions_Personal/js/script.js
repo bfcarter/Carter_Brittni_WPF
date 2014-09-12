@@ -4,8 +4,6 @@ Brittni Carter
 WPF Section 01
  */
 alert("Welcome,let's find out how much dog food you will need for a year.");
-
-
 // how much dog food will I need for a year?
 var yourAns = prompt ("How many cans of food do you think you use each year?");
 console.log (yourAns);
