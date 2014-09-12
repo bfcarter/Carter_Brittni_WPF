@@ -4,7 +4,7 @@
  WPF Section 1
  */
 alert ("Hello, Do you have more pairs of shoes then other people and what would the total amount be?");
-
+var youWin = prompt ("Do you think you will have the most pairs of shoes?");
 var yourShoes =prompt ("How many pairs of shoes do you have?");
 console.log(yourShoes);
 
@@ -22,5 +22,7 @@ var shoeRacks = [200,234,155,333];
 var total = shoeRacks[0] +shoeRacks[1] +shoeRacks[2] +shoeRacks[3] + yourShoes;
 console.log(total);
 
-alert ("all of the shoes together are "+total+"")
-console.log (total)
+alert ("all of the shoes together are "+total+"");
+console.log (total);
+
+alert ("Do you have the most shoes?");
