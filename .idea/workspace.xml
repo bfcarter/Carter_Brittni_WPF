@@ -28,11 +28,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="225">
               <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-              <folding>
-                <marker date="1410471889000" expanded="true" signature="22:150" placeholder="..." />
-                <marker date="1410471889000" expanded="true" signature="30:125" placeholder="..." />
-                <marker date="1410471889000" expanded="true" signature="133:142" placeholder="..." />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -67,24 +63,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Expressions_wacky/js/script.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.44179523" vertical-offset="0" max-vertical-offset="713">
-              <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Expressions_industry/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="240">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Expressions_wacky/js/script.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.10518934" vertical-offset="0" max-vertical-offset="713">
+              <caret line="5" column="67" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -384,11 +380,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="225">
           <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding>
-            <marker date="1410471889000" expanded="true" signature="22:150" placeholder="..." />
-            <marker date="1410471889000" expanded="true" signature="30:125" placeholder="..." />
-            <marker date="1410471889000" expanded="true" signature="133:142" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -426,8 +418,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Expressions_wacky/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44179523" vertical-offset="0" max-vertical-offset="713">
-          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.10518934" vertical-offset="0" max-vertical-offset="713">
+          <caret line="5" column="67" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
