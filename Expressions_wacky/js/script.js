@@ -10,4 +10,4 @@ var shoeRacks = [200,234,155,333];
 var amountOfRacks = 4;
 //ask how many shoe racks there are
 var amountOfRacks =prompt ("How many shoe racks are there?");
-console.log (amountOfRacks);
+console.log (Number= amountOfRacks);
