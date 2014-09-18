@@ -13,18 +13,18 @@ while (userName ===""){
 }
 console.log(userName);
 
-
+//find out how many bottles of nail polish they have
 var bottlesOfPolish = prompt ("Please type in the amount of bottles of nail polish you have");
 //Must input a number
 while (isNaN(bottlesOfPolish)){
-    bottlesOfPolish = prompt ("Please enter a number representing your age.");
+    bottlesOfPolish = prompt ("Please enter a number representing the amount of polish.");
     while (bottlesOfPolish ===""){
-        bottlesOfPolish = prompt ("Please don't leave blank, enter your age");
+        bottlesOfPolish = prompt ("Please don't leave blank, enter a number");
     }
 }
 console.log(bottlesOfPolish);
 
-
+//find out if they are a hoarder
 if (bottlesOfPolish >= 0 && bottlesOfPolish <= 5){
     bottlesOfPolish = alert(""+userName+" you aren't even close to being a hoarder!");
 }
