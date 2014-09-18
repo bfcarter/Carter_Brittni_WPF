@@ -28,16 +28,17 @@ while (isNaN(hoursAtDayCare)){
     }
 }
 console.log(hoursAtDayCare);
+
 //prices for full day and half day daycare
-var costFullDay = 22;
-var costHalfDay = 14;
+var halfDay = (14);
+var fullDay = (22);
 
-//if input is above or below 4 hours it determines if its a half or full day
 if (hoursAtDayCare >= 0 && hoursAtDayCare <= 4){
-    alert= costHalfDay*daysOfDayCare;
+    alert ("You will pay $"+halfDay*hoursAtDayCare+"");
 }
 
-if (hoursAtDayCare >= 4 && hoursAtDayCare <= 8){
-    alert = costFullDay*daysOfDayCare;
+if (hoursAtDayCare >= 5 && hoursAtDayCare <= 8){
+    alert ("You will pay $"+fullDay*hoursAtDayCare+"");
 }
+
 
