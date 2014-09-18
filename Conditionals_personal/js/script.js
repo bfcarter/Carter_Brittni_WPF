@@ -18,9 +18,9 @@ while (isNaN(daysOfDayCare)){
     }
 }
 console.log(daysOfDayCare);
-
+//ask the user how many hrs their dog will need daycare
 var hoursAtDayCare = prompt ("How many hours per day will you need to use the daycare?");
-//Must input a number
+//user must use a number
 while (isNaN(hoursAtDayCare)){
     hoursAtDayCare = prompt ("Please enter a number");
     while (hoursAtDayCare ===""){
@@ -32,6 +32,7 @@ console.log(hoursAtDayCare);
 //prices for full day and half day daycare
 var halfDay = (14);
 var fullDay = (22);
+
 //math to multiple the hours by the days
 if (hoursAtDayCare >= 0 && hoursAtDayCare <= 4){
     alert ("You will pay $"+halfDay*hoursAtDayCare+"");
