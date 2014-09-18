@@ -32,7 +32,7 @@ console.log(hoursAtDayCare);
 //prices for full day and half day daycare
 var halfDay = (14);
 var fullDay = (22);
-
+//math to multiple the hours by the days
 if (hoursAtDayCare >= 0 && hoursAtDayCare <= 4){
     alert ("You will pay $"+halfDay*hoursAtDayCare+"");
 }
