@@ -2,7 +2,7 @@
 Brittni Carter
  9/17/14
  WPF Section 1
- Personal Conditionals
+ Personal Conditionals - I take my dog to daycare while I am at work
  */
 
 alert("Lets find out how much it will cost to drop off your dog to doggie daycare!");
@@ -28,7 +28,7 @@ while (isNaN(hoursAtDayCare)){
     }
 }
 console.log(hoursAtDayCare);
-
+//prices for full day and half day daycare
 var costFullDay = 22;
 var costHalfDay = 14;
 
@@ -36,9 +36,11 @@ var costHalfDay = 14;
 if (hoursAtDayCare >= 0 && hoursAtDayCare <= 4){
     hoursAtDayCare = costHalfDay
 }
+console.log (costHalfDay);
 if (hoursAtDayCare >= 4 && hoursAtDayCare <= 8){
     hoursAtDayCare = costFullDay
 }
+console.log (costFullDay);
 //hours per day multiplied by the amount of days
 var totalCostFullDay = daysOfDayCare*costFullDay;
 
