@@ -14,7 +14,7 @@ while (userName ===""){
 console.log(userName);
 
 //find out how many bottles of nail polish they have
-var bottlesOfPolish = prompt ("Please type in the amount of bottles of nail polish you have");
+var bottlesOfPolish = prompt ("Please type in the amount of bottles of nail polish you have bought in the last 6 months.");
 //Must input a number
 while (isNaN(bottlesOfPolish)){
     bottlesOfPolish = prompt ("Please enter a number representing the amount of polish.");
@@ -23,17 +23,29 @@ while (isNaN(bottlesOfPolish)){
     }
 }
 console.log(bottlesOfPolish);
+//how many old bottles of polish do you have?
+var oldBottlesOfPolish = prompt ("Please type in the amount of bottles of nail polish you have older then 6 months.");
+//Must input a number
+while (isNaN(oldBottlesOfPolish)) {
+    oldBottlesOfPolish = prompt("Please enter a number representing the amount of polish.");
+    while (oldBottlesOfPolish === "") {
+        oldBottlesOfPolish = prompt("Please don't leave blank, enter a number");
+    }
+}
+//add old and new
+
+var totalNailPolish = Number(oldBottlesOfPolish)+Number(bottlesOfPolish);
+console.log (totalNailPolish);
 
 //find out if they are a hoarder
-if (bottlesOfPolish >= 0 && bottlesOfPolish <= 5){
-    bottlesOfPolish = alert(""+userName+" you aren't even close to being a hoarder!");
+    if (totalNailPolish >= 0 && totalNailPolish <= 5){
+    totalNailPolish = alert(""+userName+" you aren't even close to being a hoarder!");
 }
 
-
-if (bottlesOfPolish >= 6 && bottlesOfPolish <= 10){
-    bottlesOfPolish = alert(""+userName+" you have a nice sized collection, a few more and you're a hoarder!");
+    if (totalNailPolish >= 6 && totalNailPolish <= 10){
+    totalNailPolish = alert(""+userName+" you have a nice sized collection, a few more and you're a hoarder!");
 }
 
-if (bottlesOfPolish >= 11 && bottlesOfPolish <= 20){
-    bottlesOfPolish = alert(""+userName+" you are a hoarder, time to invest in a nail polish rack and open a salon.");
+    if (totalNailPolish >= 11 && totalNailPolish <= 20){
+        totalNailPolish = alert(""+userName+" you are a hoarder, time to invest in a nail polish rack and open a salon.");
 }
