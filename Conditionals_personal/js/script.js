@@ -10,7 +10,7 @@ alert("Lets find out how much it will cost to drop off your dog to doggie daycar
 //find out how many days the dog will need to be dropped off
 
 var daysOfDayCare = prompt ("How many days a week will you need to use the daycare?");
-//Must input a number
+//user must use a number for answer
 while (isNaN(daysOfDayCare)){
     daysOfDayCare = prompt ("Please enter a number");
     while (daysOfDayCare ===""){
