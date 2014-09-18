@@ -5,9 +5,6 @@ Brittni Carter
  Personal Conditionals
  */
 
-alert("Lets find out how many bully sticks are in Esther's Toy Box!");
+alert("Lets find out how much it will cost to drop off your dog to doggie daycare!");
 
-//Create Esther's Toy Box
-var estherToyBox = ["squeaky toy","bully stick","tennis ball","frisbee","rawhide"];
-
-console.log(estherToyBox);
+//
