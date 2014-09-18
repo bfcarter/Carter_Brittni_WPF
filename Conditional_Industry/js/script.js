@@ -30,42 +30,42 @@ while (userChannel ==="") {
     userChannel= prompt("Please enter one Twitter, LinkedIn or Twitter");
 }
 var favChannel = ["Twitter", "LinkedIn","Instagram"];
-console.log (favChannel)
+console.log (favChannel);
 //how long is this array?
-
+console.log(favChannel.length);
 //age groups for the three social media channels
-if (favChannel===[0]&&userAge >= 0 && userAge <= 18){
+if (favChannel[0]&&userAge >= 0 && userAge <= 18){
     userAge = alert(""+userName+" You don't match your peers! Instagram is the most popular social media channel for your age group");
 }
 
-if (favChannel===[0]&&userAge >= 19 && userAge <= 29){
+if (favChannel[0]&&userAge >= 19 && userAge <= 29){
     userAge = alert(""+userName+" You are just like your peers! Twitter is the most popular social media channel for your age group");
 }
 
-if (favChannel===[0]&&userAge >= 30 && userAge <= 40){
+if (favChannel[0]&&userAge >= 30 && userAge <= 40){
     userAge = alert(""+userName+" You don't match your peers! LinkedIn is the most popular social media channel for your age group");
 }
 
-if (favChannel===[1]&&userAge >= 0 && userAge <= 18){
+if (favChannel[1]&&userAge >= 0 && userAge <= 18){
     userAge = alert(""+userName+" You don't match your peers! Instagram is the most popular social media channel for your age group");
 }
 
-if (favChannel===[1]&&userAge >= 19 && userAge <= 29){
+if (favChannel[1]&&userAge >= 19 && userAge <= 29){
     userAge = alert(""+userName+" You don't match your peers! Twitter is the most popular social media channel for your age group");
 }
 
-if (favChannel===[1]&&userAge >= 30 && userAge <= 40){
+if (favChannel[1]&&userAge >= 30 && userAge <= 40){
     userAge = alert(""+userName+" You are just like your peers! LinkedIn is the most popular social media channel for your age group");
 }
 
-if (favChannel===[2]&&userAge >= 0 && userAge <= 18){
+if (favChannel[2]&&userAge >= 0 && userAge <= 18){
     userAge = alert(""+userName+" You are just like your peers! Instagram is the most popular social media channel for your age group");
 }
 
-if (favChannel===[2]&&userAge >= 19 && userAge <= 29){
+if (favChannel[2]&&userAge >= 19 && userAge <= 29){
     userAge = alert(""+userName+" You don't match your peers! Twitter is the most popular social media channel for your age group");
 }
 
-if (favChannel===[2]&&userAge >= 30 && userAge <= 40){
+if (favChannel[2]&&userAge >= 30 && userAge <= 40){
     userAge = alert(""+userName+" You don't match your peers! LinkedIn is the most popular social media channel for your age group");
 }
