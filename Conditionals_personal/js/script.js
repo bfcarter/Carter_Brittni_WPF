@@ -29,6 +29,19 @@ while (isNaN(hoursAtDayCare)){
 }
 console.log(hoursAtDayCare);
 
-var costFullDay = 22
-var costHalfDay = 14
+var costFullDay = 22;
+var costHalfDay = 14;
 
+//if input is above or below 4 hours it determines if its a half or full day
+if (hoursAtDayCare >= 0 && hoursAtDayCare <= 4){
+    hoursAtDayCare = costHalfDay
+}
+if (hoursAtDayCare >= 4 && hoursAtDayCare <= 8){
+    hoursAtDayCare = costFullDay
+}
+//hours per day multiplied by the amount of days
+var totalCostFullDay = daysOfDayCare*costFullDay;
+
+var totalCostHalfDay = daysOfDayCare*costHalfDay;
+
+alert(""+totalCost+" Instagram is the most popular social media channel for your age group");
