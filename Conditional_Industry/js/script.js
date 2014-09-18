@@ -15,15 +15,25 @@ console.log(userName);
 
 //Ask the user their age
 var userAge = prompt ("Please type in your age");
+while (isNaN(userAge)){
+    userAge = prompt ("Please enter a number representing your age.");
+    while (userAge ===""){
+        userName = prompt ("Please don't leave blank, enter your age")
+    }
+}
+
+//Must input a number
 
 Console.log(userAge);
 
 //age groups for the three social media channels
-
+if (userAge >= 0 && userAge <= 18){
+    userAge = prompt
+}
 
 //Ask when they are most active on social media
 
-var userActivity = prompt ("Which social media channel do you use most? Twitter, Facebook or Instagram")
+var userActivity = prompt ("Which social media channel do you use most? Twitter, Facebook or Instagram");
 
 console.log(userActivity);
 
