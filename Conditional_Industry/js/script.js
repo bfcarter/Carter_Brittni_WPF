@@ -24,17 +24,48 @@ while (isNaN(userAge)){
 }
 console.log(userAge);
 
+//Ask the user which channel is their favorite
+var userChannel = prompt ("what social media channel do you use the most? (Twitter, LinkedIn or Instagram");
+while (userChannel ==="") {
+    userChannel= prompt("Please enter one Twitter, LinkedIn or Twitter");
+}
+var favChannel = ["Twitter", "LinkedIn","Instagram"];
+console.log (favChannel)
+//how long is this array?
+
 //age groups for the three social media channels
-if (userAge >= 0 && userAge <= 18){
-    userAge = alert(""+userName+" Instagram is the most popular social media channel for your age group");
+if (favChannel===[0]&&userAge >= 0 && userAge <= 18){
+    userAge = alert(""+userName+" You don't match your peers! Instagram is the most popular social media channel for your age group");
 }
 
-
-if (userAge >= 19 && userAge <= 29){
-    userAge = alert(""+userName+" Twitter is the most popular social media channel for your age group");
+if (favChannel===[0]&&userAge >= 19 && userAge <= 29){
+    userAge = alert(""+userName+" You are just like your peers! Twitter is the most popular social media channel for your age group");
 }
 
-if (userAge >= 30 && userAge <= 40){
-    userAge = alert(""+userName+" LinkedIn is the most popular social media channel for your age group");
+if (favChannel===[0]&&userAge >= 30 && userAge <= 40){
+    userAge = alert(""+userName+" You don't match your peers! LinkedIn is the most popular social media channel for your age group");
 }
 
+if (favChannel===[1]&&userAge >= 0 && userAge <= 18){
+    userAge = alert(""+userName+" You don't match your peers! Instagram is the most popular social media channel for your age group");
+}
+
+if (favChannel===[1]&&userAge >= 19 && userAge <= 29){
+    userAge = alert(""+userName+" You don't match your peers! Twitter is the most popular social media channel for your age group");
+}
+
+if (favChannel===[1]&&userAge >= 30 && userAge <= 40){
+    userAge = alert(""+userName+" You are just like your peers! LinkedIn is the most popular social media channel for your age group");
+}
+
+if (favChannel===[2]&&userAge >= 0 && userAge <= 18){
+    userAge = alert(""+userName+" You are just like your peers! Instagram is the most popular social media channel for your age group");
+}
+
+if (favChannel===[2]&&userAge >= 19 && userAge <= 29){
+    userAge = alert(""+userName+" You don't match your peers! Twitter is the most popular social media channel for your age group");
+}
+
+if (favChannel===[2]&&userAge >= 30 && userAge <= 40){
+    userAge = alert(""+userName+" You don't match your peers! LinkedIn is the most popular social media channel for your age group");
+}
