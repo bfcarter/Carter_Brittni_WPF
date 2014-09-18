@@ -2,14 +2,15 @@
 Brittni Carter
  9/17/14
  WPF Section 1
-"Last Chance for Gas"
+"celsius to Fahrenheit"
  */
 
-alert("Should we stop for gas?");
+alert("use the calculator to convert Celsius to Fahrenheit or Fahrenheit to Celsius");
 
-//how many miles per gallon does the car get?
+var degFahren = Number(prompt("Enter the degrees Fahrenheit"))
 
-var milePerGallon = 42
-var gasTankSize = 13.2
+degFahren*-17.77778
 
-var gasReading = 80
+0 degrees Fahrenheit is equal to -17.77778 degrees Celsius
+
+T(°C) = (T(°F) - 32) × 5/9
