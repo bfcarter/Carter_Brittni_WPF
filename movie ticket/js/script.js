@@ -26,5 +26,5 @@ if (userAge >= 0 && userAge <= 10 || userAge >= 55){
 
 else
 {
-    alert("You will pay $ "+regPrice +"");
+    alert("The ticket price is $ "+regPrice +"");
 }
