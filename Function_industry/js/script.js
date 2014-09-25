@@ -21,11 +21,12 @@ while (isNaN(impressions)){
         impressions = prompt ("Please don't leave blank, enter the amount of days");
     }
 }
-var total =calcCtr(clicks, impressions);
 
+var total = calcCtr(clicks,impressions);
 function calcCtr (clicks, impressions){
     var clickThroughRate = clicks / impressions;
+    return clickThroughRate;
 
 }
-
-console.log (total);
+console.log(total);
+alert = (("The CTR for this ad is "+total+""));
