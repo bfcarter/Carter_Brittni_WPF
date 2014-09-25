@@ -25,7 +25,7 @@ var total =calcCtr(clicks, impressions);
 
 function calcCtr (clicks, impressions){
     var clickThroughRate = clicks / impressions;
-   
+
 }
 
 console.log (total);
