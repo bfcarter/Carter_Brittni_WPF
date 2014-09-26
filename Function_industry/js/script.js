@@ -15,11 +15,10 @@ while (isNaN(clicks)){
 }
 var impressions = prompt ("How many impressions did your ad receive?");
 //user must use a number for answer
-while (isNaN(impressions)){
-    impressions = prompt ("Please enter a number");
-    while (impressions ===""){
+while (impressions ===""||isNaN(impressions)){
+
         impressions = prompt ("Please don't leave blank, enter the amount of days");
-    }
+
 }
 
 var total = calcCtr(clicks,impressions);
