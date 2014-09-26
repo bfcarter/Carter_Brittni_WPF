@@ -2,7 +2,7 @@
 Brittni Carter
 9/25/14
  WPF Section 1
- Function_Industry
+ Function_Personal
  */
 
 
@@ -36,9 +36,10 @@ var useCoupon = function(item1, item2, item3){
 };
 
 
-for (shopTotal = 100; shopTotal>100;shopTotal++){
-    console.log (shopTotal + 'means you can use your coupon');
+if (shopTotal = 100 || shopTotal>100){
+
+    alert = (shopTotal + 'means you can use your coupon');
 }
-
-
-var shopTotal = useCoupon(50,60,70);
+else {
+    alert = ("Spend more money!");
+}
