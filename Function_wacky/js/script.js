@@ -1,3 +1,10 @@
+/*
+Brittni Carter
+9/25/14
+ WPF Section 1
+ Function_Industry
+ */
+
 
 
 alert ("Let's find out if our 3 items allow us to use our half off coupon!");

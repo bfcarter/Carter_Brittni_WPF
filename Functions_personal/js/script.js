@@ -1,4 +1,10 @@
-alert("Using your 15% off student card, lets find out how much your purchase will cost.");
+/*
+Brittni Carter
+ 9/25/14
+ WPF Section 1
+ Function_Wacky
+*/
+// alert("Using your 15% off student card, lets find out how much your purchase will cost.");
 
 var yarnPrice = prompt("What is the cost of your yarn");
 //user must use a number for answer
