@@ -3,8 +3,8 @@ alert("Using your 15% off student card, lets find out how much your purchase wil
 var yarnPrice = prompt("What is the cost of your yarn");
 //user must use a number for answer
 while (yarnPrice ==="" || isNaN (yarnPrice)){
-
-        yarnPrice = prompt ("Please don't leave blank, enter the cost of your yarn");
+//ask user not to leave blank or use words
+        yarnPrice = prompt ("Please enter the cost of your yarn");
 }
 function calcYarnSale(){
     var studentDiscount = .15 * yarnPrice;
