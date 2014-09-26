@@ -21,17 +21,17 @@ while (impressions ===""||isNaN(impressions)){
 
 }
 //function call
-calcCtr(clicks, impressions);
-
+var returnNum = calcCtr(clicks, impressions);
+console.log (returnNum);
 var total = calcCtr(clicksNum,impressionsNum);
-function calcCtr (clicks, impressions){
-
-console.log (Math.round((Number(clicksNum) / Number(impressionsNum))
-
+function calcCtr (clicksNum, impressionsNum){
+//round number
+var roundCtr = (Math.round((Number(clicksNum) / Number(impressionsNum)));
+return roundCtr;
 }
 
-alert = (("The CTR for this ad is "+total+""));
+var ctrTotal = calcCtr(277, 16077);
+console.log(ctrTotal);
 
 
-var clickThroughRate = clicks / impressions;
-return clickThroughRate;
+

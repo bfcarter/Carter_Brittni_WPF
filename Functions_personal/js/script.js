@@ -1,4 +1,4 @@
-alert("This is in the js file");
+alert("Using your 15% off student card, lets find out how much your purchase will cost.");
 
 var yarnPrice = prompt("What is the cost of your yarn");
 //user must use a number for answer
