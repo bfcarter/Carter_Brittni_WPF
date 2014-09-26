@@ -5,28 +5,30 @@
  Function_Industry
  */
 alert("Let's find out the the click through rate for a facebook ad!");
-var clicks = prompt ("How many clicks did this ad receive?");
+var clicksNum = prompt ("How many clicks did this ad receive?");
 //user must use a number for answer
-while (isNaN(clicks)){
-    clicks = prompt ("Please enter a number");
-    while (clicks ===""){
-        clicks = prompt ("Please don't leave blank, enter the amount of days");
+while (isNaN(clicksNum)){
+    clicksNum= prompt ("Please enter a number");
+    while (clicksNum ===""){
+        clicksNum = prompt ("Please don't leave blank, enter the amount of days");
     }
 }
-var impressions = prompt ("How many impressions did your ad receive?");
+var impressionsNum = prompt ("How many impressions did your ad receive?");
 //user must use a number for answer
-while (impressions ===""||isNaN(impressions)){
+while (impressionsNum===""||isNaN(impressionsNum)){
 
-        impressions = prompt ("Please don't leave blank, enter the amount of days");
+        impressionsNum = prompt ("Please don't leave blank, enter the amount of days");
 
 }
+
+
 //function call
-var returnNum = calcCtr(clicks, impressions);
+var returnNum = calcCtr(clicksNum, impressionsNum);
 console.log (returnNum);
 var total = calcCtr(clicksNum,impressionsNum);
 function calcCtr (clicksNum, impressionsNum){
 //round number
-var roundCtr = (Math.round((Number(clicksNum) / Number(impressionsNum)));
+var roundCtr = (Math.round((Number(clicksNum) / Number(impressionsNum))));
 return roundCtr;
 }
 
