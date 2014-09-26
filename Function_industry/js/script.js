@@ -20,12 +20,18 @@ while (impressions ===""||isNaN(impressions)){
         impressions = prompt ("Please don't leave blank, enter the amount of days");
 
 }
+//function call
+calcCtr(clicks, impressions);
 
-var total = calcCtr(clicks,impressions);
+var total = calcCtr(clicksNum,impressionsNum);
 function calcCtr (clicks, impressions){
-    var clickThroughRate = clicks / impressions;
-    return clickThroughRate;
+
+console.log (Math.round((Number(clicksNum) / Number(impressionsNum))
 
 }
-console.log(total);
+
 alert = (("The CTR for this ad is "+total+""));
+
+
+var clickThroughRate = clicks / impressions;
+return clickThroughRate;
