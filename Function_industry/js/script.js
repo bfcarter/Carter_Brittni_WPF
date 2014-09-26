@@ -30,8 +30,7 @@ var roundCtr = (Math.round((Number(clicksNum) / Number(impressionsNum)));
 return roundCtr;
 }
 
-var ctrTotal = calcCtr(277, 16077);
-console.log(ctrTotal);
+alert(("The CTR for this ad is "+total+""));
 
 
 

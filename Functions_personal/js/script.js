@@ -17,4 +17,4 @@ function calcYarnSale(){
     return studentDiscount;
 
 }
-calcYarnSale();
+alert = ("The total after the discount it "+studentDiscount+"")
