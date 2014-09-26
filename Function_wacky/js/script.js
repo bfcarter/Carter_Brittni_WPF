@@ -2,7 +2,7 @@
 Brittni Carter
 9/25/14
  WPF Section 1
- Function_Personal
+ Function_Personal -I shop at Joann's a lot with my student discount card
  */
 
 
@@ -31,9 +31,12 @@ while (item3 ==="" || isNaN(item3)){
         item3 = prompt ("Please don't leave blank, enter the cost of your third item");
 }
 
+
+
 var useCoupon = function(item1, item2, item3){
     var itemTotal = (item1 + item2 + item3);
 };
+useCoupon(5,6,13);
 
 
 if (shopTotal = 100 || shopTotal>100){

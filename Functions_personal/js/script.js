@@ -12,6 +12,8 @@ while (yarnPrice ==="" || isNaN (yarnPrice)){
 //ask user not to leave blank or use words
         yarnPrice = prompt ("Please enter the cost of your yarn");
 }
+
+
 function calcYarnSale(){
     var studentDiscount = .15 * yarnPrice;
     return studentDiscount;
