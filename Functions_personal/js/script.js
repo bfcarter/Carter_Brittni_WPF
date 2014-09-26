@@ -12,11 +12,13 @@ while (yarnPrice ==="" || isNaN (yarnPrice)){
 //ask user not to leave blank or use words
         yarnPrice = prompt ("Please enter the cost of your yarn");
 }
+var applyDiscount = .15;
 
+function calcYarnSale(yarnPrice, applyDiscount){
 
-function calcYarnSale(){
     var studentDiscount = .15 * yarnPrice;
     return studentDiscount;
 
 }
-alert = ("The total after the discount it "+studentDiscount+"")
+calcYarnSale(4,.15);
+alert = ("The total after the discount it "+studentDiscount+"");
